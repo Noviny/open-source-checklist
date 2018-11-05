@@ -1,6 +1,10 @@
 # Open Source Checklist
 This checklist is aimed at javascript packages to be published to NPM. Let's break up the roles of various things
 
+## Necessities
+
+These are things that should be done before a project gets on NPM
+
 ## Code Necessities
 * package.json with the fields
 	* name
@@ -26,6 +30,10 @@ This checklist is aimed at javascript packages to be published to NPM. Let's bre
 * README.md
 * Way to be contacted
 
+## Niceties
+
+These are still important! They're just things that if we delay them we can still function
+
 ## Code Niceties
 * package.json fields:
 	* keywords
@@ -33,6 +41,7 @@ This checklist is aimed at javascript packages to be published to NPM. Let's bre
 * Scripts
 	* Test
 	* Deploy (test, lint)
+	* CI
 * More tests
 ## Documentation Niceties
 * Code examples
