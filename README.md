@@ -6,14 +6,10 @@ This checklist is aimed at javascript packages to be published to NPM. Let's bre
 These are things that should be done before a project gets on NPM
 
 ## Code Necessities
-* package.json with the fields
+* package.json fields:
 	* name
 	* version
-	* description
 	* main
-	* author
-	* license
-	* repository
 	* files (narrow what is published)
 * tests setup
 * Build step?
@@ -23,12 +19,20 @@ These are things that should be done before a project gets on NPM
 * README.md
 * CHANGELOG.md
 * LICENSE
+* package.json fields:
+	* description
+	* author
+
+
 
 ## Community Necessities
 * CONTRIBUTING.md
 * Code of conduct
 * README.md
-* Way to be contacted
+* Way to be contacted (repository link may be enough?)
+* package.json fields:
+	* repository
+	* license
 
 ## Niceties
 
@@ -41,8 +45,9 @@ These are still important! They're just things that if we delay them we can stil
 * Scripts
 	* Test
 	* Deploy (test, lint)
-	* CI
+* CI
 * More tests
+
 ## Documentation Niceties
 * Code examples
 * Running examples
